@@ -1,0 +1,13 @@
+sort1 uses: bubble sort
+
+How do you know?: exclusion two others
+
+sort2 uses: merge sort
+
+How do you know?: sort random50000.txt => sort1 6s, sort2 0.5s, sort3 2.3s => sort2 is merge sort.
+Because in the worst case, merge sort O(nlogn) is faster than two others O(n2)
+
+sort3 uses: selection sort
+
+How do you know?: sort sorted50000.txt => sort1 0.6s, sort3 2.3s => sort3 is selection sort.
+Because in the best case - sorted list, selection sort (n2) is slower than bubble sort (n).
